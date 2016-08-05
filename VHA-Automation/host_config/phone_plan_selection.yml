@@ -1,0 +1,22 @@
+mobiles: {
+        purchaseiphone6s: {
+        phonename: Iphone 6S,
+        planname: '96',
+        phonecolour: Gold,
+        phonecapacity: 64GB,
+        phonehref: 'iphone-6s',
+        },
+}
+
+basics: {
+        customerdetails: {
+        fname: Test Order,
+        mname: Order test,
+        sname: testing,
+        email: 'testing.test@yopmail.com',
+        contact: '0432236498',
+        address: '27 Henning Avenue MAROUBRA NSW 2035',
+        dob: '09/09/1987',
+        },
+}
+

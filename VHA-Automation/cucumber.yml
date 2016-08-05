@@ -1,0 +1,7 @@
+#default: --profile html_report
+#html_report: --format progress --format html --out=html_reports/features_report.html
+
+
+default: --profile html_report --profile json_report
+html_report: --format progress --format html --out html_reports/Process<%= ENV['TEST_ENV_NUMBER'] %>.html --tags ~@ignore --tags ~@wip --require features/
+json_report: --format progress --format json --out html_reports/Process<%= ENV['TEST_ENV_NUMBER'] %>.json
